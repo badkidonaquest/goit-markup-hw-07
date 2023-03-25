@@ -22,11 +22,29 @@
     <header class="page-header">
       <div class="header-container container">
         <nav class="nav-container">
-          <!-- Navigation to other pages -->
           <a href="./index.html" class="logo"
             ><span class="logo-purple link">Web</span
             ><span class="logo-blue link">Studio</span></a
           >
+          <button
+            type="button"
+            class="menu-btn is-open"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            js-menu-container
+          >
+            <svg width="32" height="22" aria-label="Mobile menu switcher">
+              <use
+                class="close-menu"
+                href="./images/icons.svg#icon-close"
+              ></use>
+              <use
+                class="icon-menu"
+                href="./images/icons.svg#icon-mob-menu"
+              ></use>
+            </svg>
+          </button>
+          <div class="menu-container" id="menu-container">test</div>
           <ul class="site-nav">
             <li>
               <a href="./index.html" class="nav-link link current">Studio</a>
@@ -530,5 +548,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
