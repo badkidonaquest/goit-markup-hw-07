@@ -19,7 +19,64 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="header-container container">
+      <div class="header-container container js-menu-container">
+        <nav class="nav-container">
+          <a href="./index.html" class="logo"
+            ><span class="logo-purple link">Web</span
+            ><span class="logo-blue link">Studio</span></a
+          >
+          <ul class="site-nav">
+            <li><a href="./index.html" class="nav-link link">Studio</a></li>
+            <li>
+              <a href="./portfolio.html" class="nav-link link current"
+                >Portfolio</a
+              >
+            </li>
+            <li><a href="#" class="nav-link link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="address-list">
+            <li class="address-item">
+              <a href="mailto:info@devstudio.com" class="contact link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-item">
+              <a href="tel:+110001111111" class="contact link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button
+          type="button"
+          class="menu-btn js-open-menu"
+          aria-expanded="false"
+          aria-controls="menu-container"
+        >
+          <svg width="32" height="22">
+            <use
+              class="icon-menu"
+              href="./images/icons.svg#icon-mob-menu"
+            ></use>
+          </svg>
+        </button>
+      </div>
+      <div class="menu-container js-menu-container is-open" id="menu-container">
+        <button
+          type="button"
+          class="close-menu-btn js-close-menu"
+          aria-expanded="false"
+          aria-controls="menu-container"
+        >
+          <svg width="32" height="22">
+            <use
+              class="icon-menu"
+              href="./images/icons.svg#icon-mob-menu"
+            ></use>
+          </svg>
+        </button>
         <nav class="nav-container">
           <a href="./index.html" class="logo"
             ><span class="logo-purple link">Web</span

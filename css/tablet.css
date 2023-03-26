@@ -1,7 +1,19 @@
-.container {
-  max-width: 768px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+@media screen and (min-width: 768px;) {
+  .container {
+    min-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-nav {
+    display: none;
+  }
+
+  .address {
+    display: none;
+  }
 }
