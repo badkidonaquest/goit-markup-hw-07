@@ -1,9 +1,27 @@
-/* @media screen and (min-width: 480px;) {
+@media screen and (min-width: 480px) {
   .container {
-    min-width: 458px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 428px;
   }
-} */
+
+  .logo {
+    margin-top: 24px;
+    margin-left: 16px;
+    margin-bottom: 22px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-container .site-nav,
+  .header-address {
+    display: none;
+  }
+
+  .modal {
+    max-width: 392px;
+    height: auto;
+  }
+}

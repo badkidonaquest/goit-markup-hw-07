@@ -1,19 +1,47 @@
-@media screen and (min-width: 768px;) {
+@media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 768px;
   }
-}
 
-@media (max-width: 767px) {
-  .site-nav {
+  .logo {
+    margin-right: 120px;
+  }
+
+  .header-address {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+  }
+
+  .menu-btn,
+  .menu-container {
     display: none;
   }
 
-  .address {
-    display: none;
+  .header-address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .nav-container .site-nav {
+    display: flex;
+  }
+
+  .hero {
+    max-width: 768px;
+    gap: 36px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.1;
+  }
+
+  .modal {
+    max-width: 408px;
   }
 }
