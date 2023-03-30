@@ -5,6 +5,11 @@
     padding-right: 16px;
   }
 
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .logo {
     margin-right: 76px;
   }
@@ -13,4 +18,131 @@
     max-width: 1440px;
     gap: 48px;
   }
+
+  .address-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .feature-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .feature-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 112px;
+    background-color: #f4f4fd;
+  }
+
+  .title {
+    margin-top: 8px;
+  }
+
+  /* About section */
+
+  .about-section {
+    display: block;
+    padding-top: 0;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-text-color);
+  }
+
+  .about-list {
+    display: flex;
+    column-gap: 24px;
+    list-style: none;
+  }
+
+  .about-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  /* Team section */
+
+  .team-section {
+    padding: 120px 0;
+  }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .list-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .team-social-icon {
+    transition: background-color var(--transition-duration)
+      var(--transition-timing-function);
+  }
+
+  .team-social-icon:hover,
+  .team-social-icon:focus {
+    background-color: #404bbf;
+  }
+
+  .customers-item {
+    flex-basis: calc((100% - 120px) / 6);
+    width: 168px;
+    height: 88px;
+  }
+
+  .customers-list-item {
+    transition: border var(--transition-duration)
+      var(--transition-timing-function);
+  }
+
+  .customers-list-item:is(:hover, :focus) {
+    border: 1px solid #404bbf;
+    color: #404bbf;
+  }
+
+  .customers-list-icon {
+    transition: fill var(--transition-duration)
+      var(--transition-timing-function);
+  }
+
+  .customers-list-item:is(:hover, :focus) .customers-list-icon {
+    fill: currentColor;
+  }
+
+  .footer {
+    padding: 100px 0;
+  }
+
+  .footer-container {
+    flex-wrap: nowrap;
+  }
+
+  .footer-social {
+    margin-left: 120px;
+  }
+
+  /* .subscribe {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+} */
+
+
+
 }

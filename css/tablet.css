@@ -3,8 +3,16 @@
     max-width: 768px;
   }
 
+  .header-container {
+    padding: 0;
+  }
+
   .logo {
     margin-right: 120px;
+  }
+
+  .nav-container {
+    display: flex;
   }
 
   .header-address {
@@ -24,6 +32,17 @@
     flex-wrap: wrap;
   }
 
+  .address-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact {
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+  }
+
   .nav-container .site-nav {
     display: flex;
   }
@@ -33,6 +52,8 @@
     gap: 36px;
     padding-top: 188px;
     padding-bottom: 188px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .hero-title {
@@ -44,4 +65,46 @@
   .modal {
     max-width: 408px;
   }
+
+  .feature-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .feature-item {
+    flex-basis: calc((100% - 72px) / 2);
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  .team-list {column-gap: 24px;} 
+
+  .customers-item {flex-basis: calc((100% - 48px) / 3);}
+
+  .footer-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+
+/* .subscribe {display: inline-block;}
+
+.subscribe-form {} */
+
+/* .form-input {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  background: inherit;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  outline: transparent;
+} */
 }
