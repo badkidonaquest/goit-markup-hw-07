@@ -14,6 +14,26 @@
     margin-right: 76px;
   }
 
+  .site-nav .link {
+    transition: color var(--transition-duration)
+      var(--transition-timing-function);
+  }
+
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+    color: #404bbf;
+  }
+
+  .contact {
+    transition: color var(--transition-duration)
+      var(--transition-timing-function);
+  }
+
+  .address-list .link:hover,
+  .address-list .link:focus {
+    color: #404bbf;
+  }
+
   .hero {
     max-width: 1440px;
     gap: 48px;
@@ -28,6 +48,16 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+  }
+
+  .hero-btn {
+    transition: background var(--transition-duration)
+      var(--transition-timing-function);
+  }
+
+  .hero-btn:hover,
+  .hero-btn:focus {
+    background: #404bbf;
   }
 
   .feature-item {
@@ -133,6 +163,24 @@
     flex-basis: calc((100% - 48px) / 3);
   }
 
+  .portfolio-btn:is(:hover, :focus) {
+    background: #404bbf;
+    color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+
+  .example {
+    box-shadow: 0 0 0;
+    transition: box-shadow var(--transition-duration)
+      var(--transition-timing-function);
+  }
+
+  .example:is(:hover, :focus) {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+
   .footer {
     padding: 100px 0;
   }
@@ -141,15 +189,28 @@
     flex-wrap: nowrap;
   }
 
-  .footer-social {
-    margin-left: 120px;
+  .footer-social-links {
+    transition: background-color var(--transition-duration)
+      var(--transition-timing-function);
   }
 
-  /* .subscribe {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-} */
+  .footer-social-links:hover,
+  .footer-social-links:focus {
+    background-color: #31d0aa;
+  }
+
+  .form-btn {
+    transition: background var(--transition-duration)
+      var(--transition-timing-function);
+  }
+
+  .form-btn:is(:hover, :focus) {
+    background: #404bbf;
+  }
+
+  .footer-text {
+    min-width: 264px;
+  }
 
   /* Overlay */
 
@@ -187,4 +248,26 @@
     letter-spacing: 0.02em;
     color: #f4f4fd;
   }
+}
+
+/* Modal */
+
+.close-btn {
+  transition: background var(--transition-duration)
+    var(--transition-timing-function);
+}
+
+.close-btn:is(:hover, :focus) {
+  background: #404bbf;
+  color: #2e2f42;
+  border: transparent;
+}
+
+.close-btn:is(:hover, :focus) .modal-close {
+  fill: #ffffff;
+}
+
+.modal-close {
+  fill: currentColor;
+  transition: fill var(--transition-duration) var(--transition-timing-function);
 }
