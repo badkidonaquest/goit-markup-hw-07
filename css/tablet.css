@@ -154,15 +154,7 @@
     width: 264px;
   }
 
-  /* .form-input {
-  width: 264px;
-  height: 40px;
-  padding: 8px 16px;
-  background: inherit;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  outline: transparent;
-} */
+  .form-btn {
+    margin: 0;
+  }
 }

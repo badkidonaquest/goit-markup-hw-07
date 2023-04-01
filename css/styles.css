@@ -33,13 +33,13 @@ img {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -333,7 +333,6 @@ img {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   list-style: none;
   gap: 72px;
 }
@@ -619,16 +618,15 @@ img {
   border-radius: 50%;
 }
 .subscribe {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  width: 100%;
   align-items: center;
 }
 
 .subscribe-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
   gap: 16px;
 }
@@ -658,6 +656,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 165px;
   height: 40px;
   padding: 8px, 24px, 8px, 24px;
