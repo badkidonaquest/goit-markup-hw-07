@@ -50,8 +50,6 @@
   .hero {
     max-width: 768px;
     gap: 36px;
-    padding-top: 188px;
-    padding-bottom: 188px;
     margin-right: auto;
     margin-left: auto;
     background-image: linear-gradient(
@@ -156,6 +154,10 @@
     text-align: left;
   }
 
+  .footer-title {
+    text-align: left;
+  }
+
   .subscribe {
     display: block;
   }
@@ -175,7 +177,7 @@
     width: 264px;
   }
 
-  .form-btn {
+  .subscribe-btn {
     margin: 0;
   }
 }

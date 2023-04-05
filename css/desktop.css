@@ -35,6 +35,8 @@
   }
 
   .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
     max-width: 1440px;
     gap: 48px;
     background-image: linear-gradient(
@@ -92,6 +94,13 @@
 
   .title {
     margin-top: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .text {
+    font-weight: 400;
   }
 
   /* About section */
@@ -208,6 +217,11 @@
 
   .footer-container {
     flex-wrap: nowrap;
+    gap: 0;
+  }
+
+  .footer-logo {
+    margin-right: 120px;
   }
 
   .footer-social-links {
@@ -231,6 +245,10 @@
 
   .footer-text {
     min-width: 264px;
+  }
+
+  .subscribe {
+    margin-left: 80px;
   }
 
   /* Overlay */
